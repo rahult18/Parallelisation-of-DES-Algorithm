@@ -29,9 +29,8 @@ To compile the program: ``` g++ -o pdes_v2 -fopenmp parallel_des_v2.cpp ```
 <br>To run the program: ``` ./pdes_v2 plaintext_file.txt ```
 
 ## Results (Time taken for the program to encrypt and decrypt)
-|                             |    Size of Plain Text File    |
-| Type of DES Implementation  | 100KB | 150KB | 250KB | 500KB |
+| Type of DES Implementation | 100KB Plain Text File | 150KB Plain Text File | 250KB Plain Text File | 500KB Plain Text File |
 | --------------------------- | ----- | ----- | ----- | ----- |
-| Serial DES Implementation   | 1.31207s	| 1.97982s | 3.43386s |	7.75364s |
+| Serial DES Implementation | 1.31207s	| 1.97982s | 3.43386s |	7.75364s |
 | Parallel DES Implementation | 0.419842s |	0.639579s |	1.02213s |	2.63822s |
 | Nested Parallelism DES Implementation | 13.0451s | 30.0124s |	45.7695s | 107.4053s |
