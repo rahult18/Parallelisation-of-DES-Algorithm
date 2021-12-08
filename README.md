@@ -37,3 +37,7 @@ To compile the program: ``` g++ -o pdes_v2 -fopenmp parallel_des_v2.cpp ```
 | Serial DES Implementation | 1.31207s	| 1.97982s | 3.43386s |	7.75364s |
 | Parallel DES Implementation | 0.419842s |	0.639579s |	1.02213s |	2.63822s |
 | Nested Parallelism DES Implementation | 13.0451s | 30.0124s |	45.7695s | 107.4053s |
+
+### Visualising Results
+![Graph 1](https://github.com/rahult18/Parallelisation-of-DES-Algorithm/blob/main/results/graph1.png?raw=true)<br>
+![Graph 2](https://github.com/rahult18/Parallelisation-of-DES-Algorithm/blob/main/results/graph2.png?raw=true)
