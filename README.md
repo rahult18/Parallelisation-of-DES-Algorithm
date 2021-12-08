@@ -11,6 +11,9 @@ Taking into account the current algorithm, they are implemented serially and on 
 We have parallelised the DES algorithm by splitting the plain text into substrings of length '8' and as DES algorithm is a block cipher text algorithm we have utilised this oppurtunity to parallelize the algorithm. We have choosen to split the plain text into substrings of length '8' because we converted the characters to ASCII representation in 8-bit binary form so 8 characters * 8 bits = 64 bits which is the ideal input to the DES algorithm. Also we tried to parallelize the S-Box Permuation using nested parallelism but failed to achive good results due to thread overhead.<br>
 
 
+## Language & Tools Used
+C++ & OpenMP Framework
+
 ## About the repository
 1. header_files - Contains header files about different permutation tables and conversions used in the following implementations
 2. serial_des.cpp - Serial Implementation of DES algorithm
